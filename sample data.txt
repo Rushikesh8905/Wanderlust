@@ -1,0 +1,94 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.2 in,top=0.2in,right=0.2 in,bottom=0.2in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Rushikesh Pawar} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91 83900 55059 \\ Maharashtra, India} 
+\address{\href{mailto:pawarrushikesh403@gmail.com}{pawarrushikesh403@gmail.com} \\ \href{www.linkedin.com/in/rushikesh-pawar8905}{linkedin.com/rushikesh-pawar} \\ \href{www.faangpath.com}{github.com/Rushikesh8905}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROFILE}
+
+{Aspiring MERN Stack Developer with a strong foundation in MongoDB, Express,js, React.js, and Node.js. Final year of BCA, with hands-on exprience in web development using MVC and front-end technologies. Quick learner with a passion for building efficient and user-friendly web applications .}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Computer Application},S.P.D.M. Arts, Commerce and Science, College & \hfill {Expected 2026}\\ 
+CGPA : 9.71(Present)& \hfill {Shirpur}
+
+%{\bf Bachelor of Computer Science}, Stanford University \hfill {2014 - 2017}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Frontend & HTML, CSS, JavaScript, React.js, Bootstrap
+\\
+Backend & Node.js, Express.js\\
+Database & MongoDB, MySQL(Basic)\\
+Version Control & Git, GitHub\\
+Tools/Platform & VS Code, Hoppscotch, npm
+
+
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{COURSES}
+
+\textbf{Full Stack Web Development Course,}{Apna College(Sigma 8.0)} \hfill {Online}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Mastered web development with hands-on projects using modern MERN stack (MongoDB, Express.js, React.js, Node.js), building real-world clones like Airbnb, LinkedIn, for real exprience, not just theory.
+     \item Designed responsive interfaces using HTML, CSS, JavaScipt, Bootstrap, and React.js, focusing on smooth, user-friendly designs that work seamlessly across devices.
+     \item Managed projects end-to-end: version control with Git, deployment with Docker/AWS, and teamwork for real-world readiness, matching industry workflow.
+    \item Earned certifications in Full Stack Web Developer. 
+ \end{itemize}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Airbnb Clone(Wanderlust).} \href{https://hiring-search.careerflow.ai/}{(Try it here)} \\
+\textbf{Technologies Used:}{ React.js, Node.js, Express.js, MongoDB, Bootstrap.}
+\begin{itemize}
+\itemsep -3pt {}
+\item {\textbf{Overview:}}{ Built a fully functional travel and stay booking platform, enabling users to explore, list, and reserve properties with real-time features inspired by Airbnb.}
+\item {\textbf{Frontend:}}{ Crafted seamless, mobile-first UIs in Bootstrap, focusing on intuitive booking and listing experiences.}
+\item {\textbf{Backend:}}{ Developed REST APIs in Node.js/Express, with secure authentication and CRUD features for property management.}
+\item {\textbf{Key Features:}}\\{- User authentication, property uploads, booking system.}\\{- Responsive design and dynamic search.}\\{- Cloud integration for images.}
+\item {\textbf{Outcomes:}}{ Strengthened skills in full-stack web development, project deployment, and teamwork using the MERN stack.}
+\end{itemize}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ADDITIONAL INFORMATION} 
+\begin{itemize}
+    \item 	{\textbf{Languages:} }English, Hindi, Marathi
+    \item {\textbf{Certifications:} }Python for Data Science by IBM,\href{https://www.tiktok.com/@faangpath}{(view)}, 
+\end{itemize}
+\end{rSection}
+\end{document}
